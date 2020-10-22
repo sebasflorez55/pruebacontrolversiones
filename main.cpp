@@ -5,10 +5,17 @@ using namespace std;
 
 int main()
 {
-    char a[TAM] = {"AB11"};
+    char a[TAM] = {"AB16515b1"};
 
     for  (int var = 0; var < TAM; var++){
         cout << a[var]<<endl;
     }
+    cout << "Imprimir los numeros de la cadena original"<< endl;
+     for (int var = 0;var < TAM;var++){
+         if (a [var] >= '0' && a[var] <= '9'){
+             cout << a[var] << endl;
+         }
+         cout << ""<< endl;
+     }
     return 0;
 }
